@@ -1,6 +1,6 @@
 let countdown = 0; // variable to set/clear intervals
 			let seconds = 1500; // seconds left on the clock
-			let workTime = 1;
+			let workTime = 25;
 			let breakTime = 5;
 			let isBreak = true;
 			let isPaused = true;
