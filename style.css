@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css?family=Noto+Sans");
+/* @import url("https://fonts.googleapis.com/css?family=Noto+Sans"); */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;700&display=swap');
 
 			html {
                 margin: 0;
@@ -6,8 +7,8 @@
 				background-color: #d9e0f7;
 				text-align: center;
 				/* min-width: 350px; */
-				font-family: "Varela Round", sans-serif;
-			}
+                font-family: 'Roboto', sans-serif;			
+            }
 
             body {
                 width: 100%;
@@ -65,7 +66,7 @@
 			.btn {
 				/* margin: 10px;
 	padding: 8px 10px; */
-				color: white;
+				/* color: white; */
 				font-size: 1em;
 				cursor: pointer;
 				border: 1px dashed lightblue;
@@ -79,14 +80,16 @@
 			#reset {
 				/* height: 40px;
 	width: 90px; */
-				color: black;
+				/* color: black; */
 				border-radius: 5px;
 				padding: 7px 7px;
+                color: navy;
+                opacity: 95%;
 				/* position: absolute; */
 				/* bottom: 8%;
 	left: 48%;
 	transform: translate(-50%, -50%); */
-				background: lightsteelblue;
+				background: lightcyan;
 			}
 
 			#start-btn {
@@ -104,7 +107,7 @@
 				width: 30px;
 				/* padding: 2px 5px; */
 				/* min-width: 40px; */
-				color: gray;
+				/* color: gray; */
 				font-size: 1em;
 				cursor: pointer;
 			}
@@ -133,13 +136,14 @@
 			#work,
 			#break {
 				color: lightcyan;
-				font-weight: 400;
+				font-weight: 300;
 			}
 
 			#work p,
 			#break p {
 				color: lightcyan;
-				font-weight: 600;
+				font-weight: 700;
+                letter-spacing: 5px;
 				/* background: #efc4c4; */
 				padding: 5px;
 			}
