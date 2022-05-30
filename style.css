@@ -1,155 +1,164 @@
 /* @import url("https://fonts.googleapis.com/css?family=Noto+Sans"); */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;700&display=swap');
 
-			html {
-                margin: 0;
-				padding: 0px;
-				background-color: #d9e0f7;
-				text-align: center;
-				/* min-width: 350px; */
-                font-family: 'Roboto', sans-serif;			
-            }
+html {
+    margin: 0;
+    padding: 0px;
+    background-color: #d9e0f7;
+    text-align: center;
+    /* min-width: 350px; */
+    font-family: 'Roboto', sans-serif;
+}
 
-            body {
-                width: 100%;
-                margin: 0;
-            }
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
 
-			.container {
-				/* padding: 0px; */
-				width: 100%;
-				min-height: 500px;
-				/* max-width: 800px; */
-				min-width: 220px;
-				background-image: url("https://wallpaperaccess.com/full/1579893.jpg");
-				background-size: cover;
-				/* margin: auto; */
-				text-align: center;
-				display: flex;
-				flex-direction: column;
-			}
+.container {
+    /* padding: 0px; */
+    /* max-width: 50%; */
+    /* min-height: 60%; */
+    height: 60%;
+    padding: 20px;
+    /* max-width: 800px; */
+    min-height: 200px;
+    min-width: 40%;
+    background-image: url("https://wallpaperaccess.com/full/1579893.jpg");
+    background-size: cover;
+    /* margin: auto; */
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
 
-			#pomodoro {
-				display: flex;
-				flex-direction: column;
-				justify-content: center;
-				align-items: center;
-				/* margin: 0 auto; */
-				/* position: relative; */
-				/* padding: 0px 10px; */
-			}
+#pomodoro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin: 0 auto; */
+    /* position: relative; */
+    /* padding: 0px 10px; */
+}
 
-			#pomodoro > * + * {
-				margin-top: 30px;
-			}
+#pomodoro>*+* {
+    /* margin-top: 10%; */
+}
 
-			#status {
-				width: 70%;
-				color: lightsteelblue;
-				font-size: 1.5em;
-				/* position: absolute; */
-				/* top: 45%;
+#status {
+    width: 70%;
+    color: lightsteelblue;
+    font-size: 1.5em;
+    /* position: absolute; */
+    /* top: 45%;
 	left: 50%; */
-				/* transform: translate(-50%, -50%); */
-			}
+    /* transform: translate(-50%, -50%); */
+}
 
-			.timerDisplay {
-				color: lightcyan;
-				font-size: 4em;
-				font-weight: bold;
-				/* position: absolute;
+.timerDisplay {
+    color: lightcyan;
+    font-size: 6em;
+    font-weight: 300;
+    /* position: absolute;
 	top: 60%;
 	left: 50%;
 	transform: translate(-50%, -50%); */
-			}
+}
 
-			.btn {
-				/* margin: 10px;
+.btn {
+    /* margin: 10px;
 	padding: 8px 10px; */
-				/* color: white; */
-				font-size: 1em;
-				cursor: pointer;
-				border: 1px solid lightblue;
-			}
+    /* color: white; */
+    font-size: 1em;
+    cursor: pointer;
+    border: 1px solid lightblue;
+}
 
-			#btns {
-				display: inline-block;
-			}
+#btns {
+    display: inline-block;
+}
 
-			#start-btn,
-			#reset {
-				/* height: 40px;
+#start-btn,
+#reset {
+    /* height: 40px;
 	width: 90px; */
-				/* color: black; */
-				border-radius: 5px;
-				padding: 7px 7px;
-                color: navy;
-                opacity: 95%;
-				/* position: absolute; */
-				/* bottom: 8%;
+    /* color: black; */
+    border-radius: 20px;
+    padding: 7px 7px;
+    color: navy;
+    opacity: 95%;
+    /* position: absolute; */
+    /* bottom: 8%;
 	left: 48%;
 	transform: translate(-50%, -50%); */
-				background: lightcyan;
-			}
+    background: lightcyan;
+}
 
-			#start-btn {
-				margin-right: 10px;
-			}
+#start-btn {
+    margin-right: 10px;
+}
 
-			.btn-settings {
-				background-color: #e0ffff;
-				/* margin: 10px; */
-				border: 1px solid #4e4e5b;
-				border-radius: 100%;
-				/* align-items: center; */
-				height: 30px;
-				line-height: 0px;
-				width: 30px;
-				/* padding: 2px 5px; */
-				/* min-width: 40px; */
-				/* color: gray; */
-				font-size: 1em;
-				cursor: pointer;
-			}
+.btn-settings {
+    background-color: #e0ffff;
+    /* margin: 10px; */
+    border: 1px solid #4e4e5b;
+    border-radius: 100px;
+    /* align-items: center; */
+    height: 30px;
+    line-height: 0px;
+    width: 30px;
+    /* padding: 2px 5px; */
+    /* min-width: 40px; */
+    /* color: gray; */
+    font-size: 1em;
+    cursor: pointer;
+}
 
-			.settings {
-				margin: 10px auto;
-				/* width: 80%; */
-				/* display: flex; */
-				flex-direction: column;
-				display: grid;
-				grid-template-columns: 2fr 2fr;
-				column-gap: 2rem;
-				/* justify-content: center;
+.settings {
+    margin: 5px auto;
+    /* height: 10%; */
+    /* width: 80%; */
+    /* display: flex; */
+    flex-direction: column;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    column-gap: 2rem;
+    /* justify-content: center;
 	align-items: center; */
-			}
+}
 
-			/* #reset {
+/* #reset {
 	border-radius: 7px;
 	/* width: 80px;
 	height: 80px; */
-			/* height: 40%;
+/* height: 40%;
 	background: #074082; */
-			/* transform: translate(0%, 50%); */
-			/* } */
+/* transform: translate(0%, 50%); */
+/* } */
 
-			#work,
-			#break {
-				color: lightcyan;
-				font-weight: 300;
-			}
+#work,
+#break {
+    color: lightcyan;
+    font-weight: 300;
+}
 
-			#work p,
-			#break p {
-				color: lightcyan;
-				font-weight: 700;
-                letter-spacing: 5px;
-				/* background: #efc4c4; */
-				padding: 5px;
-			}
+#work p,
+#break p {
+    color: lightcyan;
+    font-weight: 700;
+    letter-spacing: 5px;
+    /* background: #efc4c4; */
+    padding: 5px;
+}
 
-			@media only screen and (max-width: 400px) {
-				.timerDisplay {
-					font-size: 2.5em;
-				}
-			}
+@media only screen and (max-width: 400px) {
+    .timerDisplay {
+        font-size: 2.5em;
+    }
+}
