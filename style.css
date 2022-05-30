@@ -80,9 +80,16 @@ body {
     border: 1px solid lightblue;
     border-radius: 20px;
     padding: 7px 7px;
-    color: navy;
+    color: #222;
     opacity: 95%;
-    background: lightcyan;
+    background-color: lightcyan;
+    transition: background-color 0.5s ease;
+}
+
+.btn:hover {
+    background-color: #4e4e5b;
+    color: lightcyan;
+
 }
 
 #btns {
@@ -112,7 +119,7 @@ body {
 .btn-settings {
     background-color: #e0ffff;
     /* margin: 10px; */
-    border: 1px solid #4e4e5b;
+    border: 1px solid lightblue;
     border-radius: 100px;
     /* align-items: center; */
     height: 30px;
@@ -123,6 +130,12 @@ body {
     /* color: gray; */
     font-size: 1em;
     cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.btn-settings:hover {
+    background-color: #4e4e5b;
+    color: #e0ffff;
 }
 
 .settings {
