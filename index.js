@@ -44,10 +44,14 @@ function timer() {
 	if (seconds < 0) {
 		clearInterval(countdown);
 		alarm.currentTime = 0;
+		alarm.loop = true;
 		alarm.play();
-		seconds = (isBreak ? breakTime : workTime) * 60;
-		isBreak = !isBreak;
-		countdown = setInterval(timer, 1000);
+		if (confirm("Finished Round")) {
+			alarm.pause();
+			seconds = (isBreak ? breakTime : workTime) * 60;
+			isBreak = !isBreak;
+			countdown = setInterval(timer, 1000);
+		}
 	}
 }
 

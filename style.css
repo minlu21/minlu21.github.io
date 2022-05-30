@@ -78,29 +78,34 @@ body {
     font-size: 1em;
     cursor: pointer;
     border: 1px solid lightblue;
+    border-radius: 20px;
+    padding: 7px 7px;
+    color: navy;
+    opacity: 95%;
+    background: lightcyan;
 }
 
 #btns {
     display: inline-block;
 }
 
-#start-btn,
+/* #start-btn,
 #reset {
     /* height: 40px;
 	width: 90px; */
     /* color: black; */
-    border-radius: 20px;
+    /* border-radius: 20px;
     padding: 7px 7px;
     color: navy;
-    opacity: 95%;
+    opacity: 95%; */
     /* position: absolute; */
     /* bottom: 8%;
 	left: 48%;
 	transform: translate(-50%, -50%); */
-    background: lightcyan;
-}
+    /* background: lightcyan;
+} */
 
-#start-btn {
+#start-btn, #reset {
     margin-right: 10px;
 }
 
