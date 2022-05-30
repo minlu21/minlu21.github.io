@@ -4,6 +4,7 @@ let workTime = 25;
 let breakTime = 5;
 let isBreak = true;
 let isPaused = true;
+let finishedClicked = false;
 
 let started = false;
 
@@ -11,6 +12,7 @@ const status = document.querySelector("#status");
 const timerDisplay = document.querySelector(".timerDisplay");
 const startBtn = document.querySelector("#start-btn");
 const resetBtn = document.querySelector("#reset");
+const finishBtn = document.querySelector("#finished");
 const workMin = document.querySelector("#work-min");
 const breakMin = document.querySelector("#break-min");
 
@@ -38,20 +40,39 @@ resetBtn.addEventListener("click", () => {
 	isBreak = true;
 });
 
+finishBtn.addEventListener("click", () => {
+	clearInterval(countdown);
+	console.log(finishedClicked);
+	finishedClicked = true;
+});
+
+alarm.addEventListener("ended", () => {
+	alarm.currentTime = 0;
+	if (finishedClicked) {
+		// console.log("does this happen?");
+		finishedClicked = false;
+		finishBtn.style.display = "none";
+		resetBtn.style.marginRight = "0px";
+		alarm.pause();
+		seconds = (isBreak ? breakTime : workTime) * 60;
+		isBreak = !isBreak;
+		countdown = setInterval(timer, 1000);
+	} else {
+		alarm.play();
+	}
+})
+
 /* TIMER - HANDLES COUNTDOWN */
 function timer() {
 	seconds--;
 	if (seconds < 0) {
+		resetBtn.style.marginRight = "10px";
+		finishBtn.style.display = "inline-block";
+
 		clearInterval(countdown);
-		alarm.currentTime = 0;
-		alarm.loop = true;
+		
 		alarm.play();
-		if (confirm("Finished Round")) {
-			alarm.pause();
-			seconds = (isBreak ? breakTime : workTime) * 60;
-			isBreak = !isBreak;
-			countdown = setInterval(timer, 1000);
-		}
+		
 	}
 }
 
@@ -84,8 +105,11 @@ for (var key in incrementFunctions) {
 function countdownDisplay() {
 	let minutes = Math.floor(seconds / 60);
 	let remainderSeconds = seconds % 60;
-	timerDisplay.textContent = `${minutes}:${remainderSeconds < 10 ? "0" : ""
-		}${remainderSeconds}`;
+	if (minutes < 0 || remainderSeconds < 0) {
+		timerDisplay.textContent = "0:00";
+	} else {
+		timerDisplay.textContent = `${minutes}:${remainderSeconds < 10 ? "0" : ""}${remainderSeconds}`;
+	}
 }
 
 function buttonDisplay() {

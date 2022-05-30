@@ -112,8 +112,12 @@ body {
     /* background: lightcyan;
 } */
 
-#start-btn, #reset {
+#start-btn {
     margin-right: 10px;
+}
+
+#finished {
+    display: none;
 }
 
 .btn-settings {
