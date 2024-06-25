@@ -1,6 +1,6 @@
 {{ define "main" }}
 {{ .Content }}
-<ul>
+<ul class="contacts">
     {{ range .Site.Data.contacts.accounts }}
     <li><a href="{{ .url }}">{{ .name }}</a></li>
     {{ end }}
