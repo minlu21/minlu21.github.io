@@ -1,7 +1,7 @@
 ---
 title: '{{ replace .File.ContentBaseName "-" " " | title }}'
 date: {{ .Date }}
-draft: true
+draft: false
 type: project
 summary: "Summary of the {{ replace .Name "-" " " | title }} project"
 tags: []
