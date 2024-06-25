@@ -1,0 +1,78 @@
+{{ define "main" }}
+<div class="cv-container">
+    <h1>{{ .Title }}</h1>
+    <section>
+        <h3>Education</h3>
+        {{ range .Site.Data.education.schools }}
+        <table>
+            <tr>
+                <th class="first">{{ .name }}</th>
+                <th class="second">{{ .location }}</th>
+            </tr>
+            <tr>
+                <td class="first">{{ .degree }} (<b>GPA:</b> {{ .gpa }})</td>
+                <td class="second">{{ .graduation }}</td>
+            </tr>
+        </table>
+        <ul>
+            <li><b>Coursework:</b> {{ .coursework }}</li>
+        </ul>
+        {{ end }}
+    </section>
+
+    <section>
+        <h3>Research Experience</h3>
+        {{ range .Site.Data.research.research }}
+        <table>
+            <tr>
+                <th class="first">{{ .lab }}</th>
+                <th class="second">{{ .location }}</th>
+            </tr>
+            <tr>
+                <td class="first">{{ .role }}</td>
+                <td class="second">{{ .dates }}</td>
+            </tr>
+        </table>
+        <ul>
+            {{ range .description }}
+            <li>{{ . }}</li>
+            {{ end }}
+        </ul>
+        {{ end }}
+    </section>
+
+    <section>
+        <h3>Work Experience</h3>
+        {{ range .Site.Data.work.work }}
+        <table>
+            <tr>
+                <th class="first">{{ .company }}</th>
+                <th class="second">{{ .location }}</th>
+            </tr>
+            <tr>
+                <td class="first">{{ .role }}</td>
+                <td class="second">{{ .dates }}</td>
+            </tr>
+        </table>
+        <ul>
+            {{ range .description }}
+            <li>{{ . }}</li>
+            {{ end }}
+        </ul>
+        {{ end }}
+    </section>
+
+    <section>
+        <h3>Skills</h3>
+        {{ range .Site.Data.skills.skills }}
+        <table>
+            <tr>
+                <td style="font-weight: bold;text-align:left;">{{ .type }}</th>
+                <td style="font-weight: lighter;text-align:right;">{{ .list }}</th>
+            </tr>
+        </table>
+        {{ end }}
+    </section>
+</div>
+
+{{ end }}

@@ -1,0 +1,100 @@
+.single-container>h2,
+.single-container>h3,
+.single-container>h4,
+.single-container>h5,
+.single-container>h6 {
+    color: green;
+    padding-top: 1%;
+    /* padding-bottom: 0.5px; */
+    border-bottom: 1px solid green;
+}
+
+.single-container>p {
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.single-container>div {
+    margin-top: 2.5%;
+}
+
+.single-container>div {
+    display: flex;
+    flex-direction: horizontal;
+}
+
+.single-container>div>div {
+    font-weight: bold;
+}
+
+.single-container>div>ul {
+    margin-left: 2.5%;
+    padding: 0;
+}
+
+.single-container>div>ul>li {
+    display: inline-block;
+    margin-right: 0 5%;
+    padding: 0;
+}
+
+.single-container>div>ul>li>a {
+    background-color: rgb(203, 210, 216);
+    text-decoration: none;
+    color: black;
+    border-radius: 15%;
+    padding: 0 5px;
+}
+
+.single-container>div>ul>li>a:hover {
+    color: green;
+    background-color: rgb(233, 232, 232);
+}
+
+#TableOfContents {
+    margin-left: 20px;
+}
+
+.toc {
+    color: gray;
+    margin-top: 1%;
+    font-weight: lighter;
+}
+
+#TableOfContents>ul>li,
+#TableOfContents>ul>li>ul>li {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#TableOfContents>ul {
+    margin: 0;
+    padding: 0;
+}
+
+#TableOfContents>ul>li>ul {
+    padding: 0 5px;
+    margin-left: 5px;
+    border-left: 1px solid gray;
+}
+
+#TableOfContents>ul>li>a,
+#TableOfContents>ul>li>ul>li>a {
+    text-decoration: none;
+}
+
+#TableOfContents>ul>li>a {
+    color: black;
+    font-size: 16px;
+}
+
+#TableOfContents>ul>li>ul>li>a {
+    color: gray;
+    font-size: 14px;
+}
+
+#TableOfContents>ul>li>a:hover,
+#TableOfContents>ul>li>ul>li>a:hover {
+    color: green;
+}

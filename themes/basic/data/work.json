@@ -1,0 +1,26 @@
+{ 
+    "work" : [
+        {
+            "company": "ABC",
+            "role": "whoami",
+            "location": "whereami",
+            "dates": "Jan. 0000-Dec. 1000",
+            "description": [
+                "Hello world",
+                "I did things",
+                "Goodbye world"
+            ]
+        },
+        {
+            "company": "ABC",
+            "role": "whoami",
+            "location": "whereami",
+            "dates": "Jan. 0000-Dec. 1000",
+            "description": [
+                "Hello world",
+                "I did things",
+                "Goodbye world"
+            ]
+        }
+    ]
+}

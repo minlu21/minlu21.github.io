@@ -1,0 +1,12 @@
+{ 
+    "schools" : [
+    {
+        "name": "Godolkin University",
+        "degree": "B.S. in Heroism",
+        "gpa": "4.00/4.00",
+        "coursework": "Lazer beaming, lifting a building",
+        "location": "Cannot disclose",
+        "graduation": "Expected: May 2026"
+    }
+    ]
+}

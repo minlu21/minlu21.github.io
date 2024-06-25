@@ -1,0 +1,34 @@
+{ 
+    "research" : [
+        {
+            "lab": "Vought Labs",
+            "role": "Coffee fetcher",
+            "location": "Washington D.C.",
+            "dates": "Jan. 0000-Aug. 2000",
+            "description": [
+                "I injected babies with random blue goop.",
+                "I am Homelander and I can whatever I want."
+            ]
+        }, 
+        {
+            "lab": "Vought Labs 2",
+            "role": "Coffee fetcher",
+            "location": "Washington D.C.",
+            "dates": "Jan. 0000-Aug. 2000",
+            "description": [
+                "I injected babies with random blue goop.",
+                "I am Homelander and I can whatever I want."
+            ]
+        },
+        {
+            "lab": "Vought Labs 3",
+            "role": "Coffee fetcher",
+            "location": "Washington D.C.",
+            "dates": "Jan. 0000-Aug. 2000",
+            "description": [
+                "I injected babies with random blue goop.",
+                "I am Homelander and I can whatever I want."
+            ]
+        }
+    ]
+}

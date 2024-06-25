@@ -1,0 +1,28 @@
+{ 
+    "work" : [
+        {
+            "company": "Advanced Semiconductor Engineering",
+            "role": "IT Intern",
+            "location": "Chungli, TW",
+            "dates": "Jun. 2024-Aug.2024",
+            "description": []
+        },
+    {
+        "company": "Purdue University",
+        "role": "Undergraduate Teaching Assistant",
+        "location": "West Lafayette, IN",
+        "dates": "Oct. 2022-Dec. 2023",
+        "description": [
+            "Department of Computer Science: C Programming; Systems Programming",
+            "The Data Mine/Ford Corporate Project: Project lead for researching the effect of a dataset's reliability coefficient and the performance of NLP models."
+        ]
+    },
+    {
+        "company": "Deloitte",
+        "role": "Risk Advisory Intern",
+        "location": "Taipei, TW",
+        "dates": "Jun. 2022-Aug. 2022",
+        "description": []
+    }
+    ]
+}

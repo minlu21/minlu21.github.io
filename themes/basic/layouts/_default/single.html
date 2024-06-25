@@ -1,0 +1,16 @@
+{{ define "main" }}
+<div class="single-container">
+  <h1>{{ .Title }}</h1>
+
+  {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
+  {{ $dateHuman := .Date | time.Format ":date_long" }}
+  <time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time>
+
+  <h2 class="toc">Table of Contents</h2>
+  {{ .TableOfContents }}
+
+  {{ .Content }}
+  {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
+</div>
+
+{{ end }}
