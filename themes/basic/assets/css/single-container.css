@@ -35,7 +35,7 @@
 
 .single-container>div>ul>li {
     display: inline-block;
-    padding: 0 1%;
+    padding: 0 0.5%;
 }
 
 .single-container>div>ul>li>a {
@@ -43,7 +43,7 @@
     text-decoration: none;
     color: black;
     border-radius: 15%;
-    padding: 0 5%;
+    padding: 0 5px;
 }
 
 .single-container>div>ul>li>a:hover {
