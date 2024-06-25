@@ -28,14 +28,14 @@
 }
 
 .single-container>div>ul {
-    margin-left: 2.5%;
+    margin-left: 1%;
     padding: 0;
+    width: 100%;
 }
 
 .single-container>div>ul>li {
     display: inline-block;
-    margin-right: 0 5%;
-    padding: 0;
+    padding: 0 1%;
 }
 
 .single-container>div>ul>li>a {
@@ -43,7 +43,7 @@
     text-decoration: none;
     color: black;
     border-radius: 15%;
-    padding: 0 5px;
+    padding: 0 5%;
 }
 
 .single-container>div>ul>li>a:hover {
