@@ -2,6 +2,15 @@
 <h1>{{ .Title }}</h1>
 {{ .Content }}
 {{ range .Pages }}
-<h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+<section class="proj-list-section">
+    <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+    <div class="proj-desc">
+        <p>{{ .Summary }}</p>
+        <img src="{{ .Params.image }}" alt="{{ .Params.alt_text }}" />
+    </div>
+</section>
+
+
+
 {{ end }}
 {{ end }}
