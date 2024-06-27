@@ -1,12 +1,12 @@
 { 
     "accounts" : [
     {
-        "name": "Twitter",
-        "url": "https://twitter.com/bphogan"
-    }, 
-    {
         "name": "LinkedIn",
-        "url": "https://linkedin.com/in/bphogan" 
+        "url": "https://linkedin.com/in/minlu21" 
+    },
+    {
+        "name": "luming2k10@gmail.com",
+        "url": "luming2k10@gmail.com"
     }
     ]
 }
