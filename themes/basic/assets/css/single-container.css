@@ -20,60 +20,40 @@
 }
 
 .single-container>p {
-    margin-top: 1%;
-    margin-bottom: 1%;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
 }
 
-.highlight {
-    width: inherit;
-    margin: 0;
-    padding: 0;
-}
-
-.highlight>pre {
-    width: 90%;
-    padding: 5px;
-    margin: 0 auto;
-}
-
-.highlight>pre>code>span>span {
-    width: inherit;
-    text-wrap: wrap;
-}
-
-.single-container>div {
+.tags>div {
     margin-top: 2.5%;
-}
-
-.single-container>div {
     display: flex;
     flex-direction: horizontal;
 }
 
-.single-container>div>div {
+.tags>div>div {
     font-weight: bold;
 }
 
-.single-container>div>ul {
+.tags>div>ul {
     margin-left: 1%;
     padding: 0;
     width: 100%;
 }
 
-.single-container>div>ul>li {
+.tags>div>ul>li {
     display: inline-block;
     padding: 0 0.5%;
 }
 
-.single-container>div>ul>li>a {
+.tags>div>ul>li>a {
     background-color: rgb(203, 210, 216);
     text-decoration: none;
     color: black;
-    border-radius: 15%;
-    padding: 0 5px;
+    border-radius: 15em;
+    padding: 2.5px 5px;
 }
 
-.single-container>div>ul>li>a:hover {
+.tags>div>ul>li>a:hover {
     color: green;
     background-color: rgb(233, 232, 232);
 }
@@ -123,5 +103,26 @@
 
 #TableOfContents>ul>li>a:hover,
 #TableOfContents>ul>li>ul>li>a:hover {
+    color: green;
+}
+
+.highlight {
+    width: inherit;
+    margin: 2.5% 0;
+    padding: 0;
+}
+
+.highlight>pre {
+    width: 90%;
+    padding: 5px;
+    margin: 0 auto;
+}
+
+.highlight>pre>code>span>span {
+    width: inherit;
+    text-wrap: wrap;
+}
+
+code:not(.highlight > pre > code) {
     color: green;
 }

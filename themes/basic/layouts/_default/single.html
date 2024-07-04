@@ -10,7 +10,9 @@
   {{ .TableOfContents }}
 
   {{ .Content }}
-  {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
+  <div class="tags">
+    {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
+  </div>
 </div>
 
 {{ end }}
