@@ -60,6 +60,7 @@
 
 #TableOfContents {
     margin-left: 20px;
+    margin-bottom: 2.5%;
 }
 
 .toc {
@@ -125,4 +126,8 @@
 
 code:not(.highlight > pre > code) {
     color: green;
+    font-weight: bold;
+    background-color: rgb(228, 232, 235);
+    border-radius: 15px;
+    padding: 0 2.5px;
 }

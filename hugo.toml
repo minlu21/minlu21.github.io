@@ -1,4 +1,4 @@
-baseURL = ''
+baseURL = 'http://www.example.com'
 relativeURLs = 'True'
 languageCode = 'en-us'
 title = 'Min Lu'
