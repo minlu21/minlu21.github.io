@@ -1,12 +1,12 @@
-{ 
-    "skills" : [
-    {
-        "type": "Programming",
-        "list": "C++, C, Python, Java, JavaScript, SQL, MongoDB, Rust, Haskell"
-    }, 
-    {
-        "type": "Languages",
-        "list": "English, Chinese"
-    }
+{
+    "skills": [
+        {
+            "type": "Programming",
+            "list": "Python, C++, C, Java, JavaScript, SQL, MongoDB, Rust, Haskell"
+        },
+        {
+            "type": "Languages",
+            "list": "English, Chinese"
+        }
     ]
 }

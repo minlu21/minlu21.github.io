@@ -1,32 +1,40 @@
-{ 
-    "research" : [
-    {
-        "lab": "Kihara Lab, Purdue University",
-        "role": "Undergraduate Research Assistant",
-        "location": "West Lafayette, IN",
-        "dates": "Oct. 2022-Dec. 2023",
-        "description": [
-            "Investigated correlations between 3D Zernike moments and protein pair RMSDs using molecular simulations."
-        ]
-    }, 
-    {
-        "lab": "Sustainable Computing Laboratory, University of Notre Dame",
-        "role": "Undergraduate Research Assistant",
-        "location": "Notre Dame, IN",
-        "dates": "Jun. 2023-Aug. 2023",
-        "description": [
-            "Conducted literature review on pruning algorithms to improve neural network fairness.",
-            "Implemented pruning algorithms using PyTorch to improve convolutional neural network fairness."
-        ]
-    }, 
-    {
-        "lab": "Democracy in Plain Sight Lab, Purdue University",
-        "role": "Undergraduate Research Assistant",
-        "location": "West Lafayette, IN",
-        "dates": "May 2022-Aug. 2022",
-        "description": [
-            "Implemented an automated data collection pipeline with the JavaScript Puppeteer library to collect over 80000 entries of Peru's voting data and ballot images."
-        ]
-    }
+{
+    "research": [
+        {
+            "lab": "Baluta Lab, Georgia Tech",
+            "role": "Graduate Research Assistant",
+            "dates": "Jan. 2025-Present",
+            "description": [
+                "Researching the development of a mathematically rigourous verification framework for machine unlearning."
+            ]
+        },
+        {
+            "lab": "Kihara Lab, Purdue University",
+            "role": "Undergraduate Research Assistant",
+            "location": "West Lafayette, IN",
+            "dates": "Oct. 2022-Dec. 2023",
+            "description": [
+                "Investigated correlations between 3D Zernike moments and protein pair RMSDs using molecular simulations."
+            ]
+        },
+        {
+            "lab": "Sustainable Computing Laboratory, University of Notre Dame",
+            "role": "Undergraduate Research Assistant",
+            "location": "Notre Dame, IN",
+            "dates": "Jun. 2023-Aug. 2023",
+            "description": [
+                "Conducted literature review on pruning algorithms to improve neural network fairness.",
+                "Implemented pruning algorithms using PyTorch to improve convolutional neural network fairness."
+            ]
+        },
+        {
+            "lab": "Democracy in Plain Sight Lab, Purdue University",
+            "role": "Undergraduate Research Assistant",
+            "location": "West Lafayette, IN",
+            "dates": "May 2022-Aug. 2022",
+            "description": [
+                "Implemented an automated data collection pipeline with the JavaScript Puppeteer library to collect over 80000 entries of Peru's voting data and ballot images."
+            ]
+        }
     ]
 }

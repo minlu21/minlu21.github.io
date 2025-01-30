@@ -1,20 +1,20 @@
-{ 
-    "schools" : [
-    {
-        "name": "Georgia Institute of Technology",
-        "degree": "M.S. in Computer Science",
-        "gpa": "n/a",
-        "coursework": "n/a",
-        "location": "Atlanta, GA",
-        "graduation": "Expected: May 2026"
-    }, 
-    {
-        "name": "Purdue University",
-        "degree": "B.S. in Computer Science, Mathematics, and Statistics",
-        "gpa": "3.94/4.00",
-        "coursework": "Compilers; Operating Systems; Systems Programming; Computer Architecture; Programming Languages; Databases; Algorithms; Machine Learning; Artificial Intelligence",
-        "location": "West Lafayette, IN",
-        "graduation": "Aug. 2020-May 2024"
-    }
+{
+    "schools": [
+        {
+            "name": "Georgia Institute of Technology",
+            "degree": "M.S. in Computer Science",
+            "gpa": "4.00/4.00",
+            "coursework": "Machine Learning; Machine Learning Security; High Performance Computing Algorithms; High Performance Computing Architecture; Datacenter & Networking; Computer Networking; Intro. to Computer Law",
+            "location": "Atlanta, GA",
+            "graduation": "Expected: May 2026"
+        },
+        {
+            "name": "Purdue University",
+            "degree": "B.S. in Computer Science, Mathematics, and Statistics",
+            "gpa": "3.94/4.00",
+            "coursework": "Machine Learning; Numerical Methods; Vector Calculus; Ordinary Differential Equations; Probability; Statistical Inference; Compilers; Operating Systems; Systems Programming; Computer Architecture; Programming Languages; Databases; Algorithms; Artificial Intelligence",
+            "location": "West Lafayette, IN",
+            "graduation": "Aug. 2020-May 2024"
+        }
     ]
 }
